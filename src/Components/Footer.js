@@ -1,18 +1,17 @@
 import React from 'react'
-import Nav from './Nav';
+import logo from '../assets/images/Logo.svg';
 
 function Footer() {
   return (
     <footer>
       <div className="footer-logo">
-        <img src="src/Assets/Images/Logo.svg" alt="logo"/>
+        <img src="{logo}" alt="logo"/>
       </div>
       <div className="footer-nav">
-        <h1>Navigation</h1>
-        <Nav />
+        <h3>Footer Navigation</h3>
       </div>
       <div className="footer-contact">
-        <h1>Contact</h1>
+        <h3>Contact</h3>
         <ul>
           <li>Adress</li>
           <li>Phone number</li>
@@ -20,7 +19,7 @@ function Footer() {
         </ul>
       </div>
       <div className="footer-social">
-        <h1>Social Media Links</h1>
+        <h3>Social Media Links</h3>
         <ul>
           <li><a href="https://www.facebook.com"><img src="src/Assets/Images/facebook.svg" alt="facebook"/></a></li>
           <li><a href="https://www.instagram.com"><img src="src/Assets/Images/instagram.svg" alt="instagram"/></a></li>
