@@ -310,3 +310,9 @@ footer ul li{
 .hidden{
   display: none;
 }
+
+.footer-social{
+  display: flex;
+  width: 40px;
+  margin: 0 auto;
+}
